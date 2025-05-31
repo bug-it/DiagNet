@@ -1,7 +1,7 @@
 Clear-Host
 
 # Caminho do arquivo HTML de saída com timestamp
-$outputFile = "C:\Users\Joao\Downloads\diagnostico_avancado_$(Get-Date -Format 'yyyyMMdd_HHmmss').html"
+$outputFile = "C:\diagnostico_avancado_$(Get-Date -Format 'yyyyMMdd_HHmmss').html"
 
 # CSS para o relatorio
 $style = @"
